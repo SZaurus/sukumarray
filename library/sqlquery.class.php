@@ -148,7 +148,7 @@
                             $fromChild .= '`'.$tableChild.'` as `'.$aliasChild.'`';
 
                             $conditionsChild .= '`'.$aliasChild.'`.`'.strtolower($this->_model).'_id` = \''.$tempResults[$this->_model]['id'].'\'';
-                            $orderBy = (isset($this->childOrderBy[$aliasChild]) ? " ORDER BY `" . $aliasChild . "`.`" . $this->childOrderBy[$aliasChild][0] . "` " . $this->childOrderBy[$aliasChild][1] . " "; 
+                            $orderBy = (isset($this->childOrderBy[$aliasChild])) ? " ORDER BY `" . $aliasChild . "`.`" . $this->childOrderBy[$aliasChild][0] . "` " . $this->childOrderBy[$aliasChild][1] . " "; 
 
                             $queryChild =  'SELECT * FROM '.$fromChild.' WHERE '.$conditionsChild . $orderBy;
                             #echo '<!--'.$queryChild.'-->';
