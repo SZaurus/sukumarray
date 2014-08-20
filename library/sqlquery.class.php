@@ -10,7 +10,6 @@
 
         protected $_orderBy;
         protected $_order;
-        protected $_childOrderBy = array();
         protected $_extraConditions;
         protected $_hO;
         protected $_hM;
