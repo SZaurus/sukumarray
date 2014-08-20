@@ -80,10 +80,6 @@
             $this->_order = $order;
         }
         
-        function childOrderBy($childAlias, $field, $order = 'ASC'){
-            $this->_childOrderBy[$childAlias] = array($field, $order);
-        }
-
         function search() {
 
             global $inflect;
