@@ -81,7 +81,7 @@ function callHook() {
 		$controller = $default['controller'];
 		$action = $default['action'];
 	} else {
-		$url = routeURL($url);
+        $url = routeURL($url);
 		$urlArray = array();
 		$urlArray = explode("/",$url);
 		$controller = $urlArray[0];
@@ -97,7 +97,7 @@ function callHook() {
 	
 	$controllerName = ucfirst($controller).'Controller';
 
-	$dispatch = new $controllerName($controller,$action);
+    $dispatch = new $controllerName($controller,$action);
 	
 	if ((int)method_exists($controllerName, $action)) {
 		call_user_func_array(array($dispatch,"beforeAction"),$queryString);
