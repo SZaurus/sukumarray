@@ -33,5 +33,4 @@ class VanillaController {
 			$this->_template->render($this->doNotRenderHeader);
 		}
 	}
-		
 }
