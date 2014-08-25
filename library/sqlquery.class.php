@@ -21,6 +21,7 @@
 
         function connect($address, $account, $pwd, $name) {
             $this->_dbHandle = @mysql_connect($address, $account, $pwd);
+            @mysql_set_charset('utf8',$this->_dbHandle);
             if ($this->_dbHandle != 0) {
                 if (mysql_select_db($name, $this->_dbHandle)) {
                     return 1;

@@ -4,7 +4,7 @@
         <div id="menu_buttons">
            <?php
                 foreach ($categories as $category)
-                    echo $html->link("<div class='menu_button' id='menu_button_" . $category['Category']['cat_desc_en'] . "'></div>","/".$category['Category']['cat_slug']);
+                    echo $html->link("<div class='menu_button' id='menu_button_" . $category['Category']['cat_desc_en'] . "'></div>",$category['Category']['cat_slug']);
             ?>
             <a href='comment.php'><div class="menu_button" id="menu_button_comment"><span id="tot_comments"></span></div></a>
             <div class="menu_button" id="menu_button_sharethis">

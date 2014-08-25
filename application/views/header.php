@@ -26,23 +26,3 @@
 	            <h1>সুকুমার রায়<br/>শিশু সাহিত্য সমগ্র</h1>
 	        </a>
 	    </header>
-        <main role="main">
-            <section id="navsection"><nav role="navigation"></nav></section>
-            <section id="maincontent">
-                <div id="menu_buttons">
-                    <a href='view.php?cat_id=1'><div class="menu_button" id="menu_button_chhara"></div></a>
-                    <a href='view.php?cat_id=2'><div class="menu_button" id="menu_button_galpa"></div></a>
-                    <a href='view.php?cat_id=3'><div class="menu_button" id="menu_button_natak"></div></a>
-                    <a href='view.php?cat_id=4'><div class="menu_button" id="menu_button_jibani"></div></a>
-                    <a href='view.php?cat_id=5'><div class="menu_button" id="menu_button_jibjantu"></div></a>
-                    <a href='view.php?cat_id=6'><div class="menu_button" id="menu_button_bibidha"></div></a>
-                    <a href='view.php?cat_id=7'><div class="menu_button" id="menu_button_tarjama"></div></a>
-                    <a href='comment.php'><div class="menu_button" id="menu_button_comment"><span id="tot_comments"></span></div></a>
-                    <div class="menu_button" id="menu_button_sharethis">
-                        <p style='text-align:center;'>
-                            <span class='st_sharethis_hcount' displaytext='ShareThis'></span><br/><span class='st_facebook_hcount' displaytext='Facebook'></span><span class='st_googleplus_hcount' displaytext='G+'></span><br/><span class='st_twitter_hcount' displaytext='Tweet'></span><span class='st_email_hcount' displaytext='Email'></span>
-                        </p>
-                    </div>
-                </div>
-            </section>
-        </main>
