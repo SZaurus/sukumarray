@@ -14,7 +14,7 @@
 
 
         function index() {
-            $this->Category->showHasMany();
+            //$this->Category->showHasMany();
             $categories = $this->Category->search();
             $this->set('categories',$categories);
         }
