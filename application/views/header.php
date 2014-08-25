@@ -12,7 +12,7 @@
     <script type="application/x-javascript" src="/public/js/jquery-1.9.1.min.js"></script>
     <script type="application/x-javascript" src="/public/js/jquery.mytoolbar.js"></script>
     <script type="application/x-javascript" src="/public/js/jquery.cookie.js"></script>
-    <script type="application/x-javascript" src="/public/js/sr.js"></script>
+    <!--<script type="application/x-javascript" src="/public/js/sr.js"></script>-->
     <script type="text/javascript">var switchTo5x=true;</script>
     <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
     <script type="text/javascript">stLight.options({publisher: "37fdf84b-3e42-44cc-9f0e-17dbb4033a7c", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
@@ -22,7 +22,7 @@
     <div id="topbanner"></div>
     <div class="wrap">
 	    <header role="banner">
-            <a href='http://sukumarray.freehostia.com/'><img src='images/SukumarRay03.jpg' id='sr_image'>
+            <a href='http://sukumarray.freehostia.com/'><img src='/img/SukumarRay03.jpg' id='sr_image'>
 	            <h1>সুকুমার রায়<br/>শিশু সাহিত্য সমগ্র</h1>
 	        </a>
 	    </header>
