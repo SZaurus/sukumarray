@@ -6,17 +6,17 @@
     <meta name="description" content="Sukumar Ray / Sukumar Roy Shishu Sahitya Samagra">
     <meta http-equiv="Cache-control" content="max-age=259200">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/normalize.css" rel="stylesheet" media="all">
-    <link href="css/styles.css" rel="stylesheet" media="all">
+    <link href="/public/css/normalize.css" rel="stylesheet" media="all">
+    <link href="/public/css/styles.css" rel="stylesheet" media="all">
     <script type="text/javascript">var __st_loadLate=true; //if __st_loadLate is defined then the widget will not load on domcontent ready</script>
-    <script type="application/x-javascript" src="include/jquery-1.9.1.min.js"></script>
-    <script type="application/x-javascript" src="include/jquery.mytoolbar.js"></script>
-    <script type="application/x-javascript" src="include/jquery.cookie.js"></script>
-    <script type="application/x-javascript" src="include/sr.js"></script>
+    <script type="application/x-javascript" src="/public/js/jquery-1.9.1.min.js"></script>
+    <script type="application/x-javascript" src="/public/js/jquery.mytoolbar.js"></script>
+    <script type="application/x-javascript" src="/public/js/jquery.cookie.js"></script>
+    <script type="application/x-javascript" src="/public/js/sr.js"></script>
     <script type="text/javascript">var switchTo5x=true;</script>
     <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
     <script type="text/javascript">stLight.options({publisher: "37fdf84b-3e42-44cc-9f0e-17dbb4033a7c", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
-    <link href="css/new_comments.css" rel="stylesheet" media="all">
+    <link href="/public/css/new_comments.css" rel="stylesheet" media="all">
 </head>
 <body id="TOC">
     <div id="topbanner"></div>
