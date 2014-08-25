@@ -18,7 +18,7 @@ class Template {
 
 	/** Display Template **/
 	
-    function render($doNotRenderHeader = 1) {
+    function render($doNotRenderHeader = 0) {
 		
 		$html = new HTML;
 		extract($this->variables);

@@ -1,114 +1,48 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>My E-Commerce Website</title>
-<style>
-html, body, div, span, applet, object, iframe,
-h2, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, font, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	outline: 0;
-	font-weight: inherit;
-	font-style: inherit;
-	font-size: 100%;
-	font-family: inherit;
-	vertical-align: baseline;
-}
-/* remember to define focus styles! */
-:focus {
-	outline: 0;
-}
-body {
-	line-height: 1;
-	color: black;
-	background: white;
-	
-}
-ol, ul {
-	list-style: none;
-}
-
-table {
-	border-collapse: separate;
-	border-spacing: 0;
-}
-caption, th, td {
-	text-align: left;
-	font-weight: normal;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: "";
-}
-blockquote, q {
-	quotes: "" "";
-}
-html { overflow: -moz-scrollbars-vertical; }
-html { overflow-x: auto; }
-
-
-
-h1 {
-color:#000000;
-font-family: Cambria, serif;
-font-size: 34px;
-font-style: normal;
-font-weight: bold;
-text-transform: uppercase;
-letter-spacing: 1px;
-line-height: 1.7em;
-padding:0;
-margin:0;
-padding:10px;
-}
-
-h2 {
-color:#000000;
-font-family: Cambria, serif;
-font-size: 14px;
-font-style: normal;
-font-weight: bold;
-text-transform: uppercase;
-letter-spacing: 1px;
-line-height: 1.7em;
-padding:0;
-margin:0;
-padding:10px;
-}
-
-.category {
-font-family: Georgia, "Times New Roman", Times, serif;
-margin:10px;
-margin-left:0px;
-margin-bottom:20px;
-}
-
-.tag {
-font-family: Georgia, "Times New Roman", Times, serif;
-
-padding:10px;
-}
-
-.category a {
-font-size:14px;
-padding:10px;
-color:#333333;
-text-decoration:none;
-}
-
-.category a:hover{ 
-background-color:#FFFF33
-}
-	</style>
+    <meta charset="utf-8">
+    <title>সুকুমার রায় - শিশু সাহিত্য সমগ্র</title>
+    <meta name="description" content="Sukumar Ray / Sukumar Roy Shishu Sahitya Samagra">
+    <meta http-equiv="Cache-control" content="max-age=259200">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/normalize.css" rel="stylesheet" media="all">
+    <link href="css/styles.css" rel="stylesheet" media="all">
+    <script type="text/javascript">var __st_loadLate=true; //if __st_loadLate is defined then the widget will not load on domcontent ready</script>
+    <script type="application/x-javascript" src="include/jquery-1.9.1.min.js"></script>
+    <script type="application/x-javascript" src="include/jquery.mytoolbar.js"></script>
+    <script type="application/x-javascript" src="include/jquery.cookie.js"></script>
+    <script type="application/x-javascript" src="include/sr.js"></script>
+    <script type="text/javascript">var switchTo5x=true;</script>
+    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+    <script type="text/javascript">stLight.options({publisher: "37fdf84b-3e42-44cc-9f0e-17dbb4033a7c", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+    <link href="css/new_comments.css" rel="stylesheet" media="all">
 </head>
-
-<body>
-<div class="navigation"><h1>My E-Commerce Website</h1>
+<body id="TOC">
+    <div id="topbanner"></div>
+    <div class="wrap">
+	    <header role="banner">
+            <a href='http://sukumarray.freehostia.com/'><img src='images/SukumarRay03.jpg' id='sr_image'>
+	            <h1>সুকুমার রায়<br/>শিশু সাহিত্য সমগ্র</h1>
+	        </a>
+	    </header>
+        <main role="main">
+            <section id="navsection"><nav role="navigation"></nav></section>
+            <section id="maincontent">
+                <div id="menu_buttons">
+                    <a href='view.php?cat_id=1'><div class="menu_button" id="menu_button_chhara"></div></a>
+                    <a href='view.php?cat_id=2'><div class="menu_button" id="menu_button_galpa"></div></a>
+                    <a href='view.php?cat_id=3'><div class="menu_button" id="menu_button_natak"></div></a>
+                    <a href='view.php?cat_id=4'><div class="menu_button" id="menu_button_jibani"></div></a>
+                    <a href='view.php?cat_id=5'><div class="menu_button" id="menu_button_jibjantu"></div></a>
+                    <a href='view.php?cat_id=6'><div class="menu_button" id="menu_button_bibidha"></div></a>
+                    <a href='view.php?cat_id=7'><div class="menu_button" id="menu_button_tarjama"></div></a>
+                    <a href='comment.php'><div class="menu_button" id="menu_button_comment"><span id="tot_comments"></span></div></a>
+                    <div class="menu_button" id="menu_button_sharethis">
+                        <p style='text-align:center;'>
+                            <span class='st_sharethis_hcount' displaytext='ShareThis'></span><br/><span class='st_facebook_hcount' displaytext='Facebook'></span><span class='st_googleplus_hcount' displaytext='G+'></span><br/><span class='st_twitter_hcount' displaytext='Tweet'></span><span class='st_email_hcount' displaytext='Email'></span>
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
