@@ -1,0 +1,18 @@
+.msg{width: 900px; margin:5px auto;overflow: auto; padding: 20px 0px; border-top: 1px dotted #ccc; position: relative; }
+.msg_header{width: 100%; padding: 5px 0; position: relative; clear: both;}
+.avatar{height: 40px; width: 40px; overflow: auto; float: left; margin-right: 10px;}
+.comment_title{ font-size: 1.1em; font-weight: bold; float: left; line-height: 40px;}
+.comment_date{width: 200px; text-align: right; float: right; line-height: 40px;}
+.msg_body{padding: 5px 0; overflow: auto; clear: both;}
+#comments_nav_header {position: relative; overflow: auto; margin-top: 20px;}
+#comments_header {float: left;}
+#nav_comments {float: right; width: 300px; overflow: auto; margin-right: 40px;}
+#prev_page {margin-right: 30px;}
+#next_page {margin-right: 30px;}
+#nav_comments span, #nav_comments a, #nav_comments select {float: right;}
+#nav_comments span, #nav_comments a {line-height: 32px; font-size: 24px;}
+#nav_comments span {color: #aaa;}
+#nav_comments a {color: #6495ed; text-decoration: none;}
+#page_combo {width: 60px; text-align: right;}
+#page_combo option {text-align: right;}
+#comments_header {margin-left: 40px; line-height: 32px; font-weight: bold; font-size: 18px;}

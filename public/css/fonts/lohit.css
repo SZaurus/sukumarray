@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'EkusheyLohitNormal';
+    src: url('lohit.eot');
+    src: url('lohit.eot') format('embedded-opentype'),
+         url('lohit.woff') format('woff'),
+         url('lohit.ttf') format('truetype'),
+         url('lohit.svg#EkusheyLohitNormal') format('svg');
+}
