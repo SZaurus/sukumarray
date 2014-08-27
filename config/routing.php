@@ -8,13 +8,13 @@
         '/(জীবজন্তু)\/(.*)/'=>'articles/view/\1/\2',
         '/(বিবিধ)\/(.*)/'=>'articles/view/\1/\2',
         '/(ইংরেজী-তর্জমা)\/(.*)/'=>'articles/view/\1/\2',
-        '/(ছড়া)/'=>'categories/list/\1',
-        '/(গল্প)/'=>'categories/list/\1',
-        '/(নাটক)/'=>'categories/list/\1',
-        '/(জীবনী)/'=>'categories/list/\1',
-        '/(জীবজন্তু)/'=>'categories/list/\1',
-        '/(বিবিধ)/'=>'categories/list/\1',
-        '/(ইংরেজী-তর্জমা)/'=>'categories/list/\1'
+        '/(ছড়া)/'=>'categories/view/\1',
+        '/(গল্প)/'=>'categories/view/\1',
+        '/(নাটক)/'=>'categories/view/\1',
+        '/(জীবনী)/'=>'categories/view/\1',
+        '/(জীবজন্তু)/'=>'categories/view/\1',
+        '/(বিবিধ)/'=>'categories/view/\1',
+        '/(ইংরেজী-তর্জমা)/'=>'categories/view/\1'
     );
 
     $default['controller'] = 'categories';

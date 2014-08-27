@@ -1,26 +1,10 @@
-<div><h2><strong><?php echo $category['Category']['name']?></strong>
-</div>
-
-<?php if (!empty($subcategories)): ?>
-<div><h2>Please select a sub-category</h2>
-<?php foreach ($subcategories as $subcategory):?>
-<div class="category">
-
-<?php echo $html->link($subcategory['Category']['name'],'categories/view/'.$subcategory['Category']['id'].'/'.$subcategory['Category']['name'])?>
-
-</div>
-<?php endforeach?>
-</div>
-<?php endif?>
-
-<?php if (!empty($category['Product'])): ?>
-<div><h2>Please select a product</h2>
-<?php foreach ($category['Product'] as $product):?>
-<div class="category">
-
-<?php echo $html->link($product['Product']['name'],'products/view/'.$product['Product']['id'].'/'.$product['Product']['name'])?>
-
-</div>
-<?php endforeach?>
-</div>
-<?php endif?>
+<div id='cat_header_div'><h1><?php $categories[0]['Category']['cat_desc'] ?></h1><div id='toolbar1'></div></div>
+<ol class='multicolumn' id='five'>
+<?php
+    foreach($categories as $row){
+        $audio_class = $row['Article']['audio'] == '' ? '' : "with_audio";
+        //echo "<li title=''><a id='article_title_" . $row['Category']['cat_slug'] . "' href='view.php?cat_id=$cat_id&article_id=" . $row['article_id'] . "' class='$audio_class'>" . $row['title'] . "</a></li>";
+        echo "<li title=''>" . $html->link($row['Article']['title'],$row['Category']['cat_slug'] . "/" . $row['Article']['article_slug']);
+    }
+?>
+</ol>
