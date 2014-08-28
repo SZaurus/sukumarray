@@ -22,7 +22,7 @@ a img {
 }
 body {
     padding-bottom: 120px;
-	background-image: url(../images/background.jpg);
+	background-image: url(/img/background.jpg);
 	background-position: top left;
 	background-repeat: repeat;
 }
@@ -165,7 +165,7 @@ main section {
 
 header {
     border-bottom: 1px solid #c9c9c9;
-    background-image: url(../images/stripe-bg.png);
+    background-image: url(/img/stripe-bg.png);
     background-position: top left;
     background-repeat: repeat;
 }
@@ -176,7 +176,7 @@ header {
     left: 0;
     height: 200px;
     width: 100%;
-    /*background-image: url(../images/rmlaapn.png);
+    /*background-image: url(/img/rmlaapn.png);
     background-position: top left;
     background-repeat: repeat-x;*/
     opacity: .8;
@@ -185,14 +185,14 @@ header {
     z-index: 1;
 }
 .with_audio {
-    background-image: url(../images/audio2.png);
+    background-image: url(/img/audio2.png);
     background-position: right 2px;
     background-repeat: no-repeat;
     padding-right: 20px;
 }
 
 .with_audio:after{
-	/*content: url(../images/audio2.png);*/
+	/*content: url(/img/audio2.png);*/
 }
 
 #sr_image {
@@ -420,37 +420,37 @@ div#menu_buttons a {
     box-shadow: 3px 3px 18px rgba(115, 0, 115, .56);
 }
 #menu_button_chhara {
-    background-image: url(../images/chhara.png);
+    background-image: url(/img/chhara.png);
 }
 #menu_button_galpa {
-    background-image: url(../images/galpa.png);
+    background-image: url(/img/galpa.png);
 }
 #menu_button_natak {
-    background-image: url(../images/natak.png);
+    background-image: url(/img/natak.png);
 }
 #menu_button_jibjantu {
-    background-image: url(../images/jibjantu.png);
+    background-image: url(/img/jibjantu.png);
 }
 #menu_button_jibani {
-    background-image: url(../images/jibani.png);
+    background-image: url(/img/jibani.png);
 }
 #menu_button_bibidha {
-    background-image: url(../images/bibidha.png);
+    background-image: url(/img/bibidha.png);
 }
 #menu_button_tarjama {
-    background-image: url(../images/tarjama.png);
+    background-image: url(/img/tarjama.png);
 }
 #menu_button_comment {
     line-height: 152px;
     text-align: center;
     font-family: Conv_BenSenHandwriting;
-    background-image: url(../images/comment.png);
+    background-image: url(/img/comment.png);
 }
 #menu_button_comment {
     color: #000;
 }
 #menu_button_sharethis {
-    background-image: url(../images/border-only.png);
+    background-image: url(/img/border-only.png);
 }
 #menu_button_sharethis p {
     line-height:  40px;
@@ -506,7 +506,7 @@ ol.multicolumn li a:hover {
     position: relative;
     overflow: auto;
     min-height: 500px;
-    background-image: url(../images/edging.png);
+    background-image: url(/img/edging.png);
     background-position: 0 0;
     background-repeat: repeat-y;
 }
@@ -718,7 +718,7 @@ figure img {
     width: 980px;
     padding: 10px 0;
     height: 100px;
-    background-image: url(../images/rmlaapn.png);
+    background-image: url(/img/rmlaapn.png);
     background-repeat: repeat-x;
     background-position: top left;
     margin: 0 auto;
@@ -763,7 +763,7 @@ figure img {
     border: 1px solid #aaa;
     padding: 2px 8px 2px 26px;
     cursor: pointer;
-    background-image: url(../images/keyboard.png);
+    background-image: url(/img/keyboard.png);
     background-position: 2px top;
     background-repeat: no-repeat;
     background-color: #ddd;
@@ -817,7 +817,7 @@ img[src=""] {
 }
 
 .ex_link {
-	background-image: url('../images/external_link.png');
+	background-image: url('/img/external_link.png');
 	background-position: right top;
 	background-repeat: no-repeat;
 	padding-right: 20px;
@@ -863,7 +863,7 @@ img[src=""] {
 	padding-left:5px;
 }		
 #breadcrumbs3 li a {
-	background: url(../images/breadcrumb_arrow.png) no-repeat right center;
+	background: url(/img/breadcrumb_arrow.png) no-repeat right center;
 	display:block;
 	padding:0 15px 0 0;
 	font-family: Conv_Bangla;
