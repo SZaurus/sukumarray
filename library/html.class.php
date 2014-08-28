@@ -23,12 +23,15 @@ class HTML {
 		return mysql_real_escape_string($data);
 	}
 
-	function link($text,$path,$prompt = null,$confirmMessage = "Are you sure?") {
+	function link($text,$path,$prompt = null,$confirmMessage = "Are you sure?",$id='',$class='') {
 		$path = str_replace(' ','-',$path);
+        if($id != '') $id = ' id="' . $id . '"';
+        if($class != '') $class = ' class="' .$class . '"';
+        
 		if ($prompt) {
-			$data = '<a href="javascript:void(0);" onclick="javascript:jumpTo(\''.BASE_PATH.'/'.$path.'\',\''.$confirmMessage.'\')">'.$text.'</a>';
+			$data = '<a' . $id . $class . ' href="javascript:void(0);" onclick="javascript:jumpTo(\''.BASE_PATH.'/'.$path.'\',\''.$confirmMessage.'\')">'.$text.'</a>';
 		} else {
-			$data = '<a href="'.BASE_PATH.'/'.$path.'">'.$text.'</a>';	
+			$data = '<a' . $id . $class . ' href="'.BASE_PATH.'/'.$path.'">'.$text.'</a>';	
 		}
 		return $data;
 	}
