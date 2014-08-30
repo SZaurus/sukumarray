@@ -152,11 +152,11 @@ function gzipOutput() {
 
 /** Get Required Files **/
 
-gzipOutput() || ob_start("ob_gzhandler");
+//gzipOutput() || ob_start("ob_gzhandler");
 
 
-$cache =& new Cache();
-$inflect =& new Inflection();
+$cache = new Cache();
+$inflect = new Inflection();
 
 setReporting();
 removeMagicQuotes();

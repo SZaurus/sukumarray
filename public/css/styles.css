@@ -212,7 +212,7 @@ header {
     padding: 0;
 }
 
-#TOC #navsection{display:none;}
+/*#TOC #navsection{display:none;}*/
 nav {
     margin: 0 auto;
     /*border-bottom: 1px solid #aaa;
