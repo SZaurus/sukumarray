@@ -9,7 +9,7 @@
         </nav>
     </section>
     <section id="maincontent">
-        <div id='cat_header_div'><h1><?php $categories[0]['Category']['cat_desc'] ?></h1><div id='toolbar1'></div></div>
+        <div id='cat_header_div'><h1><?php echo $categories[0]['Category']['cat_desc'] ?></h1><div id='toolbar1'></div></div>
         <ol class='multicolumn' id='five'>
 <?php
     

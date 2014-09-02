@@ -1,15 +1,15 @@
 $(function(){
-    $("#indextab span").click(function(){
+    /*$("#indextab span").click(function(){
         $("#indextab span").removeClass("active");
         $("#prothomchhatra_div").toggleClass("invisible");
         $("#shironam_div").toggleClass("invisible");
         $(this).toggleClass("active");
-    });
+    });*/
 	//$("#toolbar").mytoolbar("maincontent");
 	$("#toolbar1").mytoolbar("maincontent");
-	getNumberOfViews("view_count");
+	//getNumberOfViews("view_count");
 	highlightLastReadArticle();
-	getCommentCount("tot_comments");
+	//getCommentCount("tot_comments");
 });
 
 function getNumberOfViews(view_id){
