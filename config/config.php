@@ -10,7 +10,7 @@ define('DB_USER', 'root');
 define('DB_PASSWORD', 'googLY');
 define('DB_HOST', 'localhost');
 
-define('BASE_PATH','http://srmvc.org');
+define('BASE_PATH','http://srmvc.local');
 
 
 define('PAGINATE_LIMIT', '5');
