@@ -592,7 +592,7 @@ ol.multicolumn li a:hover {
     background-color: #ff0;
 }
 #TOC #toolbar1 {
-    display: none;
+    display: block;
 }
 .ntd {
     width: 10%;
@@ -844,6 +844,7 @@ img[src=""] {
 	margin:0;
 	white-space: nowrap;
 	font-size: 1.1em;
+    font-family: "Conv_BenSenHandwriting";
 }
 
 	
@@ -866,7 +867,7 @@ img[src=""] {
 	background: url(/img/breadcrumb_arrow.png) no-repeat right center;
 	display:block;
 	padding:0 15px 0 0;
-	font-family: Conv_Bangla;
+    font-family: "Conv_BenSenHandwriting";
 }							
 #breadcrumbs3 li a:link,
 #breadcrumbs3 li a:visited {
