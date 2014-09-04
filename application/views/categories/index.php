@@ -5,8 +5,9 @@
            <?php
                 foreach ($categories as $category)
                     echo $html->link("<div class='menu_button' id='menu_button_" . $category['Category']['cat_desc_en'] . "'></div>",$category['Category']['cat_slug']);
+
+                echo $html->link("<div class=\"menu_button\" id=\"menu_button_comment\"><span id=\"tot_comments\"></span></div>","মন্তব্য");
             ?>
-            <a href='comment.php'><div class="menu_button" id="menu_button_comment"><span id="tot_comments"></span></div></a>
             <div class="menu_button" id="menu_button_sharethis">
                 <p style='text-align:center;'>
                     <span class='st_sharethis_hcount' displaytext='ShareThis'></span><br/>

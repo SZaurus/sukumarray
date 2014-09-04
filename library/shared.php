@@ -23,6 +23,15 @@ function makeBanglaNumber( $str ) {
     return $converted;
 }
 
+function convertBanglaNumber($str){
+    $engNumber = array(1,2,3,4,5,6,7,8,9,0);
+    $bangNumber = array('১','২','৩','৪','৫','৬','৭','৮','৯','০');
+    
+    $converted = str_replace($bangNumber, $engNumber, $str);
+
+    return $converted;
+}
+
 /** Check for Magic Quotes and remove them **/
 
 function stripSlashesDeep($value) {
