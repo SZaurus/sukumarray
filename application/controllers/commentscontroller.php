@@ -5,6 +5,10 @@
         }
 
         function view($page) {
+            //echo $page . "...";
+            $page = intval(convertBanglaNumber($page));
+            //echo $page;
+            //exit;
             $this->Comment->setPage($page);
             $this->Comment->orderBy('timestamp','DESC');
             $comments = $this->Comment->search();

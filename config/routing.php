@@ -15,8 +15,9 @@
         '/(জীবজন্তু)/'=>'categories/view/\1',
         '/(বিবিধ)/'=>'categories/view/\1',
         '/(ইংরেজী-তর্জমা)/'=>'categories/view/\1',
-        '/(মন্তব্য)\/(.*)/'=>'comments/view/\1',
-        '/(মন্তব্য)/'=>'comments/view/1'
+        '/মন্তব্য\/(.+)/'=>'comments/view/\1',
+        '/মন্তব্য\//'=>'comments/view/১',
+        '/মন্তব্য/'=>'comments/view/১'
     );
 
     $default['controller'] = 'categories';

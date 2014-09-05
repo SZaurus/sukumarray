@@ -117,7 +117,7 @@
                 $offset = ($this->_page-1)*$this->_limit;
                 $conditions .= ' LIMIT '.$this->_limit.' OFFSET '.$offset;
             }
-
+            
             $this->_query = 'SELECT * FROM '.$from.' WHERE '.$conditions;
             #echo '<!--'.$this->_query.'-->';
             $this->_result = mysql_query($this->_query, $this->_dbHandle);
