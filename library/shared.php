@@ -90,7 +90,7 @@ function createPagesCombo($total_pages, $current_page){
 	$str = "<select id='page_combo' onchange=\"gotoPage('page_combo');\">";
 	for($i = 1; $i <= $total_pages; $i++){
 		$selected = $i == $current_page ? " selected='selected'" : "";
-		$str .= "<option value=$i{$selected}>" . makeBanglaNumber($i) . "</option>";
+		$str .= "<option value=" . makeBanglaNumber($i) . "{$selected}>" . makeBanglaNumber($i) . "</option>";
 	}
 	$str .= "</select>";
 

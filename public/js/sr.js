@@ -63,9 +63,11 @@ function getCommentCount(count_id){
 
 function gotoPage(page_combo) {
     var page = $("#" + page_combo).val();
-    if (page > -1) {
-        window.location = setParameterByName(document.URL, 'p', page);
-    }
+    var url = window.location.hostname;
+    
+    
+    window.location ="/মন্তব্য/" + page;
+    
 }
 
 function nextPage(page_number){
