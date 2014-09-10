@@ -16,6 +16,7 @@
         protected $_hMABTM;
         protected $_page;
         protected $_limit;
+        protected $_total_records_paginated = 0;
 
         /** Connects to database **/
 
@@ -390,11 +391,16 @@
                 $this->_result = mysql_query($countQuery, $this->_dbHandle);
                 $count = mysql_fetch_row($this->_result);
                 $totalPages = ceil($count[0]/$this->_limit);
+                $this->_total_records_paginated = $count[0];
                 return $totalPages;
             } else {
                 /* Error Generation Code Here */
                 return -1;
             }
+        }
+        
+        function totalRecordsPaginated(){
+            return $this->_total_records_paginated;
         }
 
         /** Get error string **/
